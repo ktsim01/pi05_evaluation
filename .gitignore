@@ -1,0 +1,46 @@
+# Keep openpi separate from this monorepo push
+openpi/
+
+# deoxys_vision
+deoxys_vision/*.pyc
+deoxys_vision/*~
+deoxys_vision/.DS_Store
+deoxys_vision/rec_exp*
+deoxys_vision/tag_exp*
+deoxys_vision/build/*
+deoxys_vision/docs/.DS_Store
+deoxys_vision/docs/build/
+
+# real_world_visual_planning
+real_world_visual_planning/*.jpg
+real_world_visual_planning/*.png
+real_world_visual_planning/*.mp4
+real_world_visual_planning/*.egg-info*
+real_world_visual_planning/*__pycache__*
+real_world_visual_planning/build/
+real_world_visual_planning/.claude
+real_world_visual_planning/curobo/
+real_world_visual_planning/logs/
+real_world_visual_planning/robo_utils/*egg-info*
+real_world_visual_planning/robo_utils/*__pycache__*
+
+# robotiq_deoxys_control
+robotiq_deoxys_control/*~
+robotiq_deoxys_control/*pyc
+robotiq_deoxys_control/*.so*
+robotiq_deoxys_control/deoxys/libfranka/
+robotiq_deoxys_control/*.hdf5
+robotiq_deoxys_control/*.npz
+robotiq_deoxys_control/deoxys/spdlog
+robotiq_deoxys_control/deoxys/yaml-cpp
+robotiq_deoxys_control/deoxys/zmqpp
+robotiq_deoxys_control/deoxys/protobuf
+robotiq_deoxys_control/deoxys/build
+robotiq_deoxys_control/deoxys/bin
+robotiq_deoxys_control/deoxys/include
+robotiq_deoxys_control/deoxys/lib
+robotiq_deoxys_control/deoxys/logs
+robotiq_deoxys_control/*egg-info
+robotiq_deoxys_control/__pycache__
+robotiq_deoxys_control/data_collection_example
+robotiq_deoxys_control/*_pb2.py

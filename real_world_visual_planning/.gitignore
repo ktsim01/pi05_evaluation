@@ -1,0 +1,10 @@
+# *.npz
+*.jpg
+*.png
+*.mp4
+*.egg-info*
+*__pycache__*
+build/
+.claude
+curobo/
+logs/

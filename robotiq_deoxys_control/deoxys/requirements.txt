@@ -1,0 +1,13 @@
+pyzmq
+PyYAML
+pyasyncore
+easydict
+google-api-python-client
+numpy
+hidapi
+glfw
+numba
+termcolor
+simplejson
+pyasynch
+pymodbus==2.5.3
